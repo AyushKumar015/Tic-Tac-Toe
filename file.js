@@ -5,7 +5,7 @@ let player2="X"
 
 function call0()
 {
-    if(document.getElementsById("0").innerHTML== " ")
+    if((document.getElementById("0").innerHTML)=="")
     {
         if(b%2==0)
         {
@@ -25,7 +25,7 @@ function call0()
 
 function call1()
 {
-    if(document.getElementsById("1").innerHTML=="")
+    if((document.getElementById("1").innerHTML)=="")
     {
         if(b%2==0)
         {
@@ -45,7 +45,7 @@ function call1()
 
 function call2()
 {
-    if(document.getElementsById("2").innerHTML=="")
+    if((document.getElementById("2").innerHTML)=="")
     {
         if(b%2==0)
         {
@@ -65,7 +65,7 @@ function call2()
 
 function call3()
 {
-    if(document.getElementsById("3").innerHTML=="")
+    if((document.getElementById("3").innerHTML)=="")
     {
         if(b%2==0)
         {
@@ -85,7 +85,7 @@ function call3()
 
 function call4()
 {
-    if(document.getElementsById("4").innerHTML=="")
+    if((document.getElementById("4").innerHTML)=="")
     {
         if(b%2==0)
         {
@@ -105,7 +105,7 @@ function call4()
 
 function call5()
 {
-    if(document.getElementsById("5").innerHTML=="")
+    if((document.getElementById("5").innerHTML)=="")
     {
         if(b%2==0)
         {
@@ -125,7 +125,7 @@ function call5()
 
 function call6()
 {
-    if(document.getElementsById('6').innerHTML=="")
+    if((document.getElementById('6').innerHTML)=="")
     {
         if(b%2==0)
         {
@@ -145,7 +145,7 @@ function call6()
 
 function call7()
 {
-    if(document.getElementsById('7').innerHTML=="")
+    if((document.getElementById('7').innerHTML)=="")
     {
         if(b%2==0)
         {
@@ -165,7 +165,7 @@ function call7()
 
 function call8()
 {
-    if(document.getElementsById('8').innerHTML=="")
+    if((document.getElementById('8').innerHTML)=="")
     {
         if(b%2==0)
         {
