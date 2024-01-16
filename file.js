@@ -15,7 +15,7 @@ function call0()
             document.getElementById("0").innerHTML="O"
         }
         b++
-        //winning()
+        winning()
     }
     else
     {
@@ -35,7 +35,7 @@ function call1()
             document.getElementById("1").innerHTML="O"
         }
         b++
-        //winning()
+        winning()
     }
     else
     {
@@ -55,7 +55,7 @@ function call2()
             document.getElementById("2").innerHTML="O"
         }
         b++
-        //winning()
+        winning()
     }
     else
     {
@@ -75,7 +75,7 @@ function call3()
             document.getElementById("3").innerHTML="O"
         }
         b++
-        //winning()
+        winning()
     }
     else
     {
@@ -95,7 +95,7 @@ function call4()
             document.getElementById("4").innerHTML="O"
         }
         b++
-        //winning()
+        winning()
     }
     else
     {
@@ -115,7 +115,7 @@ function call5()
             document.getElementById("5").innerHTML="O"
         }
         b++
-        //winning()
+        winning()
     }
     else
     {
@@ -135,7 +135,7 @@ function call6()
             document.getElementById("6").innerHTML="O"
         }
         b++
-        //winning()
+        winning()
     }
     else
     {
@@ -155,7 +155,7 @@ function call7()
             document.getElementById("7").innerHTML="O"
         }
         b++
-        //winning()
+        winning()
     }
     else
     {
@@ -175,7 +175,7 @@ function call8()
             document.getElementById("8").innerHTML="O"
         }
         b++
-        //winning()
+        winning()
     }
     else
     {
@@ -183,22 +183,22 @@ function call8()
     }
 }
 
-// function winning()
-// {
-//     let c=document.getElementsByTagName('p')
-//     if (b>4)
-//     {
-//         if (((c[0].innerHTML==c[1].innerHTML) && (c[0].innerHTML==c[2].innerHTML)) || ((c[3].innerHTML==c[4].innerHTML) && (c[3].innerHTML==c[5].innerHTML)) || ((c[6].innerHTML==c[8].innerHTML) && (c[6].innerHTML==c[7].innerHTML)) || ((c[0].innerHTML==c[3].innerHTML) && (c[0].innerHTML==c[6].innerHTML)) || ((c[1].innerHTML==c[4].innerHTML) && (c[1].innerHTML==c[7].innerHTML)) || ((c[2].innerHTML==c[5].innerHTML) && (c[2].innerHTML==c[8].innerHTML)) || ((c[0].innerHTML==c[4].innerHTML) && (c[0].innerHTML==c[8].innerHTML)) || ((c[2].innerHTML==c[4].innerHTML) && (c[2].innerHTML==c[6].innerHTML)))
-//           {
-//               document.getElementById('win').innerHTML="winner is" +" " + c[0].innerHTML
-//               for(let i=0;i<9;i++)
-//                {
-//                   c[i].innerHTML=''
-//                }
+function winning()
+{
+    let c=document.getElementsByTagName('p')
+    if (b>4)
+    {
+        if (((c[0].innerHTML==c[1].innerHTML) && (c[0].innerHTML==c[2].innerHTML) && (c.innerHTML!="")) || ((c[3].innerHTML==c[4].innerHTML) && (c[3].innerHTML==c[5].innerHTML) && (c.innerHTML!="")) || ((c[6].innerHTML==c[8].innerHTML) && (c[6].innerHTML==c[7].innerHTML) && (c.innerHTML!="")) || ((c[0].innerHTML==c[3].innerHTML) && (c[0].innerHTML==c[6].innerHTML) && (c.innerHTML!="")) || ((c[1].innerHTML==c[4].innerHTML) && (c[1].innerHTML==c[7].innerHTML) && (c.innerHTML!="")) || ((c[2].innerHTML==c[5].innerHTML) && (c[2].innerHTML==c[8].innerHTML) && (c.innerHTML!="")) || ((c[0].innerHTML==c[4].innerHTML) && (c[0].innerHTML==c[8].innerHTML) && (c.innerHTML!="")) || ((c[2].innerHTML==c[4].innerHTML) && (c[2].innerHTML==c[6].innerHTML) && (c.innerHTML!="")))
+          {
+              document.getElementById('win').innerHTML="winner is" +" " + c[0].innerHTML
+              for(let i=0;i<9;i++)
+               {
+                  c[i].innerHTML=''
+               }
        
-//           }
-//     }
-// }
+          }
+    }
+}
 
 function reset()
 {
